@@ -34,10 +34,10 @@ body {
     margin-bottom: 10px;
 }
 #add-btn{
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: rgb(47, 99, 212);
-    color: white;
+padding: 10px 20px;
+font-size: 16px;
+background-color: rgb(47, 99, 212);
+color: white;
 cursor: pointer;
 border: none;
 border-radius: 5px;

@@ -2,7 +2,6 @@ let input=document.getElementById("todo-input");
 let addBtn=document.getElementById("add-btn");
 let todoList=document.getElementById("todo-list");
 
-
 addBtn.addEventListener("click",function(){
          console.log("Button Clicked");
          let task = input.value;
