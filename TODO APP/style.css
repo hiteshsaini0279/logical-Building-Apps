@@ -52,4 +52,35 @@ border-radius: 5px;
     margin-top: 10px;
     padding: 10px;
     border-radius: 5px;
+      display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.delete-btn {
+    margin-left: 260px;
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.delete-btn:hover {
+    background-color: darkred;
+}
+.completed-btn{
+      margin-left: 25px;
+      height: 30px;
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: skyblue;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.completed-btn:hover {
+    background-color: deepskyblue;
 }
