@@ -49,6 +49,55 @@ A simple and interactive **Todo List Application** that allows users to manage t
 
 ---
 
+## 📌 Project 2: Quiz App
+
+An interactive **Quiz Application** that displays questions dynamically and tracks user score.
+
+---
+
+## ✨ Features
+
+* ▶️ Start Quiz button
+* ❓ Dynamic question display
+* 🔘 Multiple choice options (2x2 layout)
+* ✅ Check Answer functionality
+* ⏭️ Next Question navigation
+* 🛑 End Quiz option
+* 📊 Live score tracking
+
+---
+
+## 🛠️ Tech Stack
+
+* HTML
+* CSS (Flexbox + Grid)
+* JavaScript (DOM Manipulation + Fetch API)
+
+---
+
+## 🧠 Concepts Used
+
+* Fetch API (`fetch()`)
+* JSON Data Handling
+* Dynamic UI Rendering
+* Event Handling
+* State Management (`currentQuestionIndex`, `score`)
+* Conditional Logic
+
+---
+
+## 📂 Folder Structure
+
+```
+/quiz-app
+   ├── index.html
+   ├── style.css
+   ├── script.js
+   └── questions.json
+```
+
+---
+
 ## 🚀 How to Run
 
 1. Clone the repository
@@ -59,20 +108,22 @@ A simple and interactive **Todo List Application** that allows users to manage t
 
 ## 🎯 Learning Goal
 
-The main objective of this project is to:
+The main objective of these projects is to:
 
 * Build strong JavaScript fundamentals
 * Understand DOM manipulation deeply
 * Improve frontend logic building skills
+* Learn how to manage application state
 
 ---
 
 ## 🔥 Future Improvements
 
-* Edit task feature
-* Save tasks using Local Storage
-* Add animations
-* Dark mode UI
+* Timer-based quiz
+* Score history tracking
+* Local Storage integration
+* Better UI animations
+* Responsive design improvements
 
 ---
 
