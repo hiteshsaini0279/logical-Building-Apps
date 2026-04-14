@@ -1,0 +1,122 @@
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center;       
+    height: 100vh;  
+     background-color:  #f0f2f5;           
+}
+.quiz{
+    width: 800px;
+   min-height: 600px;
+    background-color:white;
+     border: 2px solid aquamarine;
+  padding : 20px;  
+  border-radius: 20px;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 90%;
+
+}
+button {
+    margin: 5px;
+}
+#start-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#start-btn:hover {
+    background-color: #218838;
+}
+#start-btn:active {
+    transform: scale(0.95);
+}
+#quiz-screen{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+#question {
+    margin: 15px 0;
+}
+#options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+    margin: 20px 0;
+}
+#options button {
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+#options button:hover {
+    background-color: #e2e6ea;
+}
+#score {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#next-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+#check-btn {
+    background-color: #ffc107;
+}
+
+#end-btn {
+    background-color: #dc3545;
+    color: white;
+}
+button:hover {
+    opacity: 0.9;
+}
+
+button {
+    border: none;
+        cursor: pointer;
+}
+#check-btn,
+#next-btn,
+#end-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+     color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#end-btn:hover {
+       transform: scale(0.95);
+}
+#check-btn:hover {
+    transform: scale(0.95);
+}
+#next-btn:hover {
+    transform: scale(0.95);
+}
+.btn-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}

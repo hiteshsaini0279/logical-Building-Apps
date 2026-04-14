@@ -1,0 +1,235 @@
+[
+  {
+    "question": "HTML ka full form kya hai?",
+    "options": ["Hyper Text Markup Language", "High Text Machine Language", "Hyper Tool Multi Language", "None"],
+    "correct": "Hyper Text Markup Language"
+  },
+  {
+    "question": "CSS ka use kya hai?",
+    "options": ["Styling", "Logic", "Database", "Server"],
+    "correct": "Styling"
+  },
+  {
+    "question": "JavaScript kya hai?",
+    "options": ["Programming Language", "Styling Tool", "Database", "Operating System"],
+    "correct": "Programming Language"
+  },
+  {
+    "question": "DOM ka full form kya hai?",
+    "options": ["Document Object Model", "Data Object Model", "Digital Output Method", "None"],
+    "correct": "Document Object Model"
+  },
+  {
+    "question": "Flexbox kisliye use hota hai?",
+    "options": ["Layout", "Database", "Logic", "Animation"],
+    "correct": "Layout"
+  },
+
+  {
+    "question": "HTML me heading ke liye kaunsa tag use hota hai?",
+    "options": ["<h1>", "<p>", "<div>", "<span>"],
+    "correct": "<h1>"
+  },
+  {
+    "question": "CSS me color change kaise karte hain?",
+    "options": ["color", "background", "font", "style"],
+    "correct": "color"
+  },
+  {
+    "question": "JS me variable declare kaise karte hain?",
+    "options": ["let", "var", "const", "All"],
+    "correct": "All"
+  },
+  {
+    "question": "Button click event ka naam kya hai?",
+    "options": ["click", "hover", "submit", "load"],
+    "correct": "click"
+  },
+  {
+    "question": "JS me array kaise likhte hain?",
+    "options": ["[]", "{}", "()", "<>"],
+    "correct": "[]"
+  },
+
+  {
+    "question": "CSS me center align kaise karte hain?",
+    "options": ["flexbox", "grid", "margin", "All"],
+    "correct": "All"
+  },
+  {
+    "question": "HTML me link ke liye kaunsa tag?",
+    "options": ["<a>", "<link>", "<href>", "<url>"],
+    "correct": "<a>"
+  },
+  {
+    "question": "JS me function kaise banate hain?",
+    "options": ["function", "fun", "def", "create"],
+    "correct": "function"
+  },
+  {
+    "question": "CSS file ka extension kya hota hai?",
+    "options": [".css", ".html", ".js", ".json"],
+    "correct": ".css"
+  },
+  {
+    "question": "HTML file ka extension kya hota hai?",
+    "options": [".html", ".css", ".js", ".txt"],
+    "correct": ".html"
+  },
+
+  {
+    "question": "JS file ka extension kya hota hai?",
+    "options": [".js", ".json", ".txt", ".css"],
+    "correct": ".js"
+  },
+  {
+    "question": "ID select karne ke liye kya use hota hai?",
+    "options": ["#", ".", "*", "&"],
+    "correct": "#"
+  },
+  {
+    "question": "Class select karne ke liye?",
+    "options": [".", "#", "*", "&"],
+    "correct": "."
+  },
+  {
+    "question": "JS me console print kaise karte hain?",
+    "options": ["console.log", "print", "echo", "log"],
+    "correct": "console.log"
+  },
+  {
+    "question": "HTML me image ke liye tag?",
+    "options": ["<img>", "<image>", "<pic>", "<src>"],
+    "correct": "<img>"
+  },
+
+  {
+    "question": "CSS me padding kya karta hai?",
+    "options": ["space inside", "space outside", "color", "border"],
+    "correct": "space inside"
+  },
+  {
+    "question": "Margin kya karta hai?",
+    "options": ["outside space", "inside space", "color", "none"],
+    "correct": "outside space"
+  },
+  {
+    "question": "JS me string kaise likhte hain?",
+    "options": ["''", "\"\"", "Both", "None"],
+    "correct": "Both"
+  },
+  {
+    "question": "Event listener ka function?",
+    "options": ["addEventListener", "eventAdd", "listen", "click"],
+    "correct": "addEventListener"
+  },
+  {
+    "question": "Fetch kisliye use hota hai?",
+    "options": ["data lana", "style", "HTML", "loop"],
+    "correct": "data lana"
+  },
+
+  {
+    "question": "JSON kya hai?",
+    "options": ["data format", "language", "framework", "database"],
+    "correct": "data format"
+  },
+  {
+    "question": "LocalStorage kya karta hai?",
+    "options": ["data save", "design", "logic", "nothing"],
+    "correct": "data save"
+  },
+  {
+    "question": "Flexbox direction ka property?",
+    "options": ["flex-direction", "align", "justify", "display"],
+    "correct": "flex-direction"
+  },
+  {
+    "question": "Button create kaise karte hain JS me?",
+    "options": ["createElement", "newButton", "make", "build"],
+    "correct": "createElement"
+  },
+  {
+    "question": "Inner text set karne ke liye?",
+    "options": ["innerText", "text", "value", "data"],
+    "correct": "innerText"
+  },
+
+  {
+    "question": "JS me DOM select karne ka method?",
+    "options": ["getElementById", "select", "query", "find"],
+    "correct": "getElementById"
+  },
+  {
+    "question": "CSS me font size ka property?",
+    "options": ["font-size", "text-size", "size", "font"],
+    "correct": "font-size"
+  },
+  {
+    "question": "JS me number type ka example?",
+    "options": ["10", "'10'", "\"10\"", "ten"],
+    "correct": "10"
+  },
+  {
+    "question": "HTML me paragraph tag?",
+    "options": ["<p>", "<h1>", "<div>", "<span>"],
+    "correct": "<p>"
+  },
+  {
+    "question": "CSS me background change ka property?",
+    "options": ["background-color", "color", "bg", "style"],
+    "correct": "background-color"
+  },
+
+  {
+    "question": "JS me loop ka example?",
+    "options": ["for", "if", "let", "const"],
+    "correct": "for"
+  },
+  {
+    "question": "HTML me list ka tag?",
+    "options": ["<ul>", "<li>", "<ol>", "All"],
+    "correct": "All"
+  },
+  {
+    "question": "CSS me border ka property?",
+    "options": ["border", "line", "edge", "outline"],
+    "correct": "border"
+  },
+  {
+    "question": "JS me condition ka example?",
+    "options": ["if", "for", "while", "loop"],
+    "correct": "if"
+  },
+  {
+    "question": "HTML me input tag?",
+    "options": ["<input>", "<form>", "<text>", "<field>"],
+    "correct": "<input>"
+  },
+
+  {
+    "question": "CSS me display flex ka use?",
+    "options": ["layout", "color", "font", "none"],
+    "correct": "layout"
+  },
+  {
+    "question": "JS me boolean value?",
+    "options": ["true/false", "yes/no", "1/0", "on/off"],
+    "correct": "true/false"
+  },
+  {
+    "question": "HTML me button tag?",
+    "options": ["<button>", "<btn>", "<click>", "<press>"],
+    "correct": "<button>"
+  },
+  {
+    "question": "CSS me text align ka property?",
+    "options": ["text-align", "align", "justify", "center"],
+    "correct": "text-align"
+  },
+  {
+    "question": "JS me object ka symbol?",
+    "options": ["{}", "[]", "()", "<>"],
+    "correct": "{}"
+  }
+]
