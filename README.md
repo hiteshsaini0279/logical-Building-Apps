@@ -1,6 +1,6 @@
 # 🚀 Frontend Logic Building Projects
 
-This repository contains multiple **frontend projects** built using **HTML, CSS, and JavaScript** to strengthen core logic and problem-solving skills.
+This repository contains multiple **frontend projects** built using **HTML, CSS, and JavaScript** to strengthen core logic, problem-solving skills, and real-world application development.
 
 ---
 
@@ -51,19 +51,22 @@ A simple and interactive **Todo List Application** that allows users to manage t
 
 ## 📌 Project 2: Quiz App
 
-An interactive **Quiz Application** that displays questions dynamically and tracks user score.
+An interactive **Quiz Application** that dynamically loads questions and evaluates user performance in real-time.
 
 ---
 
 ## ✨ Features
 
-* ▶️ Start Quiz button
-* ❓ Dynamic question display
-* 🔘 Multiple choice options (2x2 layout)
-* ✅ Check Answer functionality
+* ▶️ Start Quiz functionality
+* ❓ Dynamic question rendering from JSON
+* 🔘 Multiple choice options (2x2 grid layout)
+* 🎯 Option selection with highlight
+* ✅ Answer validation (Correct/Wrong feedback)
+* 🚫 Prevent multiple answer submissions
 * ⏭️ Next Question navigation
 * 🛑 End Quiz option
 * 📊 Live score tracking
+* 🧾 Final result screen display
 
 ---
 
@@ -79,10 +82,11 @@ An interactive **Quiz Application** that displays questions dynamically and trac
 
 * Fetch API (`fetch()`)
 * JSON Data Handling
-* Dynamic UI Rendering
+* Dynamic DOM Rendering
 * Event Handling
-* State Management (`currentQuestionIndex`, `score`)
+* State Management (`currentQuestionIndex`, `score`, `answered`)
 * Conditional Logic
+* UI State Control (show/hide screens)
 
 ---
 
@@ -106,24 +110,25 @@ An interactive **Quiz Application** that displays questions dynamically and trac
 
 ---
 
-## 🎯 Learning Goal
+## 🎯 Learning Goals
 
-The main objective of these projects is to:
+These projects are built to:
 
-* Build strong JavaScript fundamentals
-* Understand DOM manipulation deeply
-* Improve frontend logic building skills
-* Learn how to manage application state
+* Strengthen JavaScript fundamentals
+* Master DOM manipulation
+* Improve problem-solving skills
+* Understand state management in frontend applications
+* Build real-world interactive UI projects
 
 ---
 
 ## 🔥 Future Improvements
 
-* Timer-based quiz
-* Score history tracking
-* Local Storage integration
-* Better UI animations
-* Responsive design improvements
+* ⏱️ Timer-based quiz system
+* 💾 Local Storage integration (save progress/score)
+* 📊 Score history & leaderboard
+* 🎨 UI/UX enhancements with animations
+* 📱 Fully responsive design
 
 ---
 
@@ -133,4 +138,4 @@ The main objective of these projects is to:
 
 ---
 
-⭐ If you like this project, don't forget to star the repo!
+⭐ If you like this project, consider giving it a star!
