@@ -134,7 +134,7 @@ These projects are built to:
 
 ## 👨‍💻 Author
 
-**Hitesh Saini**
+**Hitesh Saini(Full Stack Developer)**
 
 ---
 
