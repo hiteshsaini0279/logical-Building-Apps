@@ -1,4 +1,4 @@
-# 🚀 Frontend Logic Building Projects
+# 🚀 Frontend Projects for Logic Building & Real-World Applications
 
 This repository contains multiple **frontend projects** built using **HTML, CSS, and JavaScript** to strengthen core logic, problem-solving skills, and real-world application development.
 
@@ -8,9 +8,7 @@ This repository contains multiple **frontend projects** built using **HTML, CSS,
 
 A simple and interactive **Todo List Application** that allows users to manage their daily tasks efficiently.
 
----
-
-## ✨ Features
+### ✨ Features
 
 * ➕ Add new tasks
 * ❌ Delete tasks
@@ -18,17 +16,13 @@ A simple and interactive **Todo List Application** that allows users to manage t
 * 🚫 Prevent adding empty tasks
 * 🎯 Clean and responsive UI
 
----
-
-## 🛠️ Tech Stack
+### 🛠️ Tech Stack
 
 * HTML
-* CSS (Flexbox for layout)
+* CSS (Flexbox)
 * JavaScript (DOM Manipulation)
 
----
-
-## 🧠 Concepts Used
+### 🧠 Concepts Used
 
 * DOM Selection (`getElementById`)
 * Event Handling (`addEventListener`)
@@ -36,9 +30,7 @@ A simple and interactive **Todo List Application** that allows users to manage t
 * Class Manipulation (`classList`)
 * Input Validation (`trim()`)
 
----
-
-## 📂 Folder Structure
+### 📂 Folder Structure
 
 ```
 /todo-app
@@ -53,44 +45,34 @@ A simple and interactive **Todo List Application** that allows users to manage t
 
 An interactive **Quiz Application** that dynamically loads questions and evaluates user performance in real-time.
 
----
-
-## ✨ Features
+### ✨ Features
 
 * ▶️ Start Quiz functionality
 * ❓ Dynamic question rendering from JSON
-* 🔘 Multiple choice options (2x2 grid layout)
+* 🔘 Multiple choice options
 * 🎯 Option selection with highlight
 * ✅ Answer validation (Correct/Wrong feedback)
-* 🚫 Prevent multiple answer submissions
 * ⏭️ Next Question navigation
 * 🛑 End Quiz option
 * 📊 Live score tracking
 * 🧾 Final result screen display
 
----
-
-## 🛠️ Tech Stack
+### 🛠️ Tech Stack
 
 * HTML
 * CSS (Flexbox + Grid)
 * JavaScript (DOM Manipulation + Fetch API)
 
----
-
-## 🧠 Concepts Used
+### 🧠 Concepts Used
 
 * Fetch API (`fetch()`)
 * JSON Data Handling
 * Dynamic DOM Rendering
 * Event Handling
-* State Management (`currentQuestionIndex`, `score`, `answered`)
+* State Management
 * Conditional Logic
-* UI State Control (show/hide screens)
 
----
-
-## 📂 Folder Structure
+### 📂 Folder Structure
 
 ```
 /quiz-app
@@ -98,6 +80,61 @@ An interactive **Quiz Application** that dynamically loads questions and evaluat
    ├── style.css
    ├── script.js
    └── questions.json
+```
+
+---
+
+## 📌 Project 3: Typing Speed Test App
+
+An interactive **Typing Speed Test Application** that measures typing speed, accuracy, and performance in real-time.
+
+### ✨ Features
+
+* ⏱️ Timer-based typing test
+* ⌨️ Real-time typing tracking
+* ❌ Mistake highlighting
+* 📊 Words Per Minute (WPM) calculation
+* 🎯 Accuracy calculation
+* 🔄 Restart functionality
+* 📄 Random paragraph generation
+
+### 🛠️ Tech Stack
+
+* HTML
+* CSS
+* JavaScript (DOM + Events)
+
+### 🧠 Concepts Used
+
+* Keyboard Events (`input`)
+* String comparison
+* Timer (`setInterval`)
+* Real-time DOM updates
+* Performance calculation (WPM, Accuracy)
+
+### 📂 Folder Structure
+
+```
+/typing-speed-test
+   ├── index.html
+   ├── style.css
+   └── script.js
+```
+
+---
+
+## 📊 Performance Metrics
+
+### WPM Formula
+
+```
+WPM = (Total Characters Typed / 5) / Time (in minutes)
+```
+
+### Accuracy Formula
+
+```
+Accuracy = (Correct Characters / Total Typed Characters) × 100
 ```
 
 ---
@@ -117,24 +154,24 @@ These projects are built to:
 * Strengthen JavaScript fundamentals
 * Master DOM manipulation
 * Improve problem-solving skills
-* Understand state management in frontend applications
+* Understand frontend state management
 * Build real-world interactive UI projects
 
 ---
 
 ## 🔥 Future Improvements
 
-* ⏱️ Timer-based quiz system
-* 💾 Local Storage integration (save progress/score)
+* ⏱️ Timer-based quiz enhancement
+* 💾 Local Storage integration
 * 📊 Score history & leaderboard
-* 🎨 UI/UX enhancements with animations
+* 🎨 UI/UX improvements
 * 📱 Fully responsive design
 
 ---
 
 ## 👨‍💻 Author
 
-**Hitesh Saini(Full Stack Developer)**
+**Hitesh Saini (Full Stack Developer)**
 
 ---
 
