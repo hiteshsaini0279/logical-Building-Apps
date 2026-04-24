@@ -10,25 +10,25 @@ A simple and interactive **Todo List Application** that allows users to manage t
 
 ### ✨ Features
 
-* ➕ Add new tasks
-* ❌ Delete tasks
-* ✅ Mark tasks as completed
-* 🚫 Prevent adding empty tasks
-* 🎯 Clean and responsive UI
+- ➕ Add new tasks  
+- ❌ Delete tasks  
+- ✅ Mark tasks as completed  
+- 🚫 Prevent adding empty tasks  
+- 🎯 Clean and responsive UI  
 
 ### 🛠️ Tech Stack
 
-* HTML
-* CSS (Flexbox)
-* JavaScript (DOM Manipulation)
+- HTML  
+- CSS (Flexbox)  
+- JavaScript (DOM Manipulation)  
 
 ### 🧠 Concepts Used
 
-* DOM Selection (`getElementById`)
-* Event Handling (`addEventListener`)
-* Dynamic Element Creation (`createElement`)
-* Class Manipulation (`classList`)
-* Input Validation (`trim()`)
+- DOM Selection (`getElementById`)  
+- Event Handling (`addEventListener`)  
+- Dynamic Element Creation (`createElement`)  
+- Class Manipulation (`classList`)  
+- Input Validation (`trim()`)  
 
 ### 📂 Folder Structure
 
@@ -47,30 +47,30 @@ An interactive **Quiz Application** that dynamically loads questions and evaluat
 
 ### ✨ Features
 
-* ▶️ Start Quiz functionality
-* ❓ Dynamic question rendering from JSON
-* 🔘 Multiple choice options
-* 🎯 Option selection with highlight
-* ✅ Answer validation (Correct/Wrong feedback)
-* ⏭️ Next Question navigation
-* 🛑 End Quiz option
-* 📊 Live score tracking
-* 🧾 Final result screen display
+- ▶️ Start Quiz functionality  
+- ❓ Dynamic question rendering from JSON  
+- 🔘 Multiple choice options  
+- 🎯 Option selection with highlight  
+- ✅ Answer validation (Correct/Wrong feedback)  
+- ⏭️ Next Question navigation  
+- 🛑 End Quiz option  
+- 📊 Live score tracking  
+- 🧾 Final result screen display  
 
 ### 🛠️ Tech Stack
 
-* HTML
-* CSS (Flexbox + Grid)
-* JavaScript (DOM Manipulation + Fetch API)
+- HTML  
+- CSS (Flexbox + Grid)  
+- JavaScript (DOM Manipulation + Fetch API)  
 
 ### 🧠 Concepts Used
 
-* Fetch API (`fetch()`)
-* JSON Data Handling
-* Dynamic DOM Rendering
-* Event Handling
-* State Management
-* Conditional Logic
+- Fetch API (`fetch()`)  
+- JSON Data Handling  
+- Dynamic DOM Rendering  
+- Event Handling  
+- State Management  
+- Conditional Logic  
 
 ### 📂 Folder Structure
 
@@ -86,31 +86,43 @@ An interactive **Quiz Application** that dynamically loads questions and evaluat
 
 ## 📌 Project 3: Typing Speed Test App
 
-An interactive **Typing Speed Test Application** that measures typing speed, accuracy, and performance in real-time.
+An interactive **Typing Speed Test Application** that measures typing speed and accuracy using real-time input and timer logic.
 
 ### ✨ Features
 
-* ⏱️ Timer-based typing test
-* ⌨️ Real-time typing tracking
-* ❌ Mistake highlighting
-* 📊 Words Per Minute (WPM) calculation
-* 🎯 Accuracy calculation
-* 🔄 Restart functionality
-* 📄 Random paragraph generation
+- ▶️ Start Test button  
+- 📄 Paragraph display for typing  
+- ⌨️ User input area (textarea)  
+- ⏱️ 60-second countdown timer  
+- 🚀 Timer starts automatically on first keystroke  
+- 🛑 Typing disabled when time ends  
+- 📊 Words Per Minute (WPM) calculation  
+- 🎯 Accuracy calculation  
+- ⚠️ Handles empty input case  
+
+> ❗ Note: Advanced features like live error highlighting and random paragraph generation will be added in future updates.
+
+---
 
 ### 🛠️ Tech Stack
 
-* HTML
-* CSS
-* JavaScript (DOM + Events)
+- HTML  
+- CSS (Flexbox + Gradient UI)  
+- JavaScript (DOM Manipulation + Timer Logic)  
+
+---
 
 ### 🧠 Concepts Used
 
-* Keyboard Events (`input`)
-* String comparison
-* Timer (`setInterval`)
-* Real-time DOM updates
-* Performance calculation (WPM, Accuracy)
+- DOM Selection & Manipulation  
+- Event Handling (`click`, `input`)  
+- Timer Functions (`setInterval`, `clearInterval`)  
+- State Management (`timeLeft`, `isTyping`)  
+- String Comparison Logic  
+- Performance Calculation (WPM & Accuracy)  
+- Dynamic UI Updates  
+
+---
 
 ### 📂 Folder Structure
 
@@ -128,7 +140,7 @@ An interactive **Typing Speed Test Application** that measures typing speed, acc
 ### WPM Formula
 
 ```
-WPM = (Total Characters Typed / 5) / Time (in minutes)
+WPM = (Total Words Typed) / Time (in minutes)
 ```
 
 ### Accuracy Formula
@@ -141,9 +153,9 @@ Accuracy = (Correct Characters / Total Typed Characters) × 100
 
 ## 🚀 How to Run
 
-1. Clone the repository
-2. Open the project folder
-3. Run `index.html` in your browser
+1. Clone the repository  
+2. Open the project folder  
+3. Run `index.html` in your browser  
 
 ---
 
@@ -151,21 +163,23 @@ Accuracy = (Correct Characters / Total Typed Characters) × 100
 
 These projects are built to:
 
-* Strengthen JavaScript fundamentals
-* Master DOM manipulation
-* Improve problem-solving skills
-* Understand frontend state management
-* Build real-world interactive UI projects
+- Strengthen JavaScript fundamentals  
+- Master DOM manipulation  
+- Improve problem-solving skills  
+- Understand frontend state management  
+- Build real-world interactive UI projects  
 
 ---
 
 ## 🔥 Future Improvements
 
-* ⏱️ Timer-based quiz enhancement
-* 💾 Local Storage integration
-* 📊 Score history & leaderboard
-* 🎨 UI/UX improvements
-* 📱 Fully responsive design
+- ⏱️ Timer-based quiz enhancement  
+- 💾 Local Storage integration  
+- 📊 Score history & leaderboard  
+- 🎨 UI/UX improvements  
+- 📱 Fully responsive design  
+- 🔤 Typing error highlighting (Typing App)  
+- 🔄 Restart button (Typing App)  
 
 ---
 
@@ -175,4 +189,4 @@ These projects are built to:
 
 ---
 
-⭐ If you like this project, consider giving it a star!
+⭐ If you like this project, consider giving it a star! 🚀
