@@ -22,6 +22,15 @@ textDisplay.textContent= sampleTxt;
         timerDisplay.textContent= `Time Left: ${timeLeft}s`;
         if(timeLeft <= 0){
             clearInterval(timer);
+              let userText = inputArea.value; 
+            inputArea.disabled = true;
+            let accuracy =calculateResults(userText, originalText);
+            let wpm = calculateWPM(userText);
+             resultDisplay.style.display = "block";
+             if (userText.trim() === "") {
+    resultDisplay.innerText = "No typing detected!";
+}
+            resultDisplay.innerHTML = `Time's up!<br>Accuracy: ${accuracy}%<br>WPM: ${wpm}`;
         }
     }, 1000);
  }
@@ -31,4 +40,27 @@ if(!isTyping){
     startTimer();
    isTyping=true;    
 }
-})
+});
+
+
+let originalText = sampleTxt;
+let userText = inputArea.value;
+function calculateResults(userText, originalText) {
+    let correct = 0;
+
+    for (let i = 0; i < userText.length; i++) {
+        if (userText[i] === originalText[i]) {
+            correct++;
+        }
+    }
+
+    let accuracy = (correct / userText.length) * 100;
+    return accuracy.toFixed(2);
+}
+function calculateWPM(userText) {
+    let words = userText.trim().split(" ").length;
+    let timeTaken = (60 - timeLeft) / 60;
+if (timeTaken === 0) return 0;
+    let wpm = words / timeTaken;
+    return Math.round(wpm);
+}
