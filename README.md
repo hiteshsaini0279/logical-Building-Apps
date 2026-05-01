@@ -135,6 +135,55 @@ An interactive **Typing Speed Test Application** that measures typing speed and 
 
 ---
 
+## 📌 Project 4: Weather App 🌦️
+
+A real-time **Weather Application** that fetches live weather data from an external API and displays it dynamically.
+
+### ✨ Features
+
+- 🔍 Search weather by city name  
+- 🌡️ Displays temperature (°C)  
+- 🌥️ Weather description  
+- 🤒 Feels like temperature  
+- ⬇️⬆️ Min & Max temperature  
+- 💧 Humidity  
+- 🔵 Pressure  
+- ⚠️ Error handling (invalid city)  
+- 🎯 Dynamic UI update without reload  
+
+---
+
+### 🛠️ Tech Stack
+
+- HTML  
+- CSS (Modern UI + Gradient Design)  
+- JavaScript (Fetch API + DOM Manipulation)  
+
+---
+
+### 🧠 Concepts Used
+
+- Fetch API (`fetch()`)  
+- API Integration  
+- JSON Handling  
+- Event Handling (`click`)  
+- Conditional Rendering  
+- Error Handling  
+- Dynamic DOM Updates  
+
+---
+
+### 📂 Folder Structure
+
+```
+/weather-app
+   ├── index.html
+   ├── style.css
+   └── app.js
+```
+
+---
+
 ## 📊 Performance Metrics
 
 ### WPM Formula
@@ -156,6 +205,7 @@ Accuracy = (Correct Characters / Total Typed Characters) × 100
 1. Clone the repository  
 2. Open the project folder  
 3. Run `index.html` in your browser  
+4. (For Weather App) Add your API key inside `app.js`
 
 ---
 
@@ -165,6 +215,7 @@ These projects are built to:
 
 - Strengthen JavaScript fundamentals  
 - Master DOM manipulation  
+- Learn API integration  
 - Improve problem-solving skills  
 - Understand frontend state management  
 - Build real-world interactive UI projects  
@@ -180,6 +231,8 @@ These projects are built to:
 - 📱 Fully responsive design  
 - 🔤 Typing error highlighting (Typing App)  
 - 🔄 Restart button (Typing App)  
+- 📍 Current location weather (Weather App)  
+- 🌤️ Weather icons & background change  
 
 ---
 
