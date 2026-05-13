@@ -235,6 +235,48 @@ These projects are built to:
 - 🌤️ Weather icons & background change  
 
 ---
+---
+
+# 📌 Project 5: Calculator App 🧮
+
+A modern and responsive **Calculator Application** built using HTML, CSS, and JavaScript that performs real-time mathematical operations with interactive UI and dynamic input handling.
+
+## ✨ Features
+
+- ➕ Addition
+- ➖ Subtraction
+- ✖️ Multiplication
+- ➗ Division
+- 🧹 Clear Display Functionality
+- ⚠️ Error Handling
+- 🎨 Modern Responsive UI
+- 🖱️ Button Click Interaction
+- 📱 Mobile Friendly Design
+
+## 🛠️ Tech Stack
+
+- HTML
+- CSS
+- JavaScript
+
+## 🧠 Concepts Used
+
+- DOM Manipulation
+- Event Listeners
+- Array Methods (`Array.from`)
+- Expression Evaluation (`eval()`)
+- Conditional Logic
+- Dynamic UI Updates
+- Responsive Grid Layout
+
+## 📂 Folder Structure
+
+```bash
+/calculator-app
+   ├── index.html
+   ├── style.css
+   └── script.js
+
 
 ## 👨‍💻 Author
 
