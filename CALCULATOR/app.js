@@ -24,7 +24,7 @@ buttons.map(button => {
                 break;
 
             default:
-                display.value += e.target.innerText;
+                display.value += e.target.value;
         }
 
     });
